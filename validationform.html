@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASCUAL.NET</title>
+    <link rel="stylesheet" href="styles5.css">
+</head>
+<body>
+    <header>
+        <div class="container2">
+            <div class="logo">
+                <h1>PASCUAL.NET</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Price</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container2">
+            <div class="main">
+                <div class="container">
+                    <div class="content">
+                        <img src="https://res.cloudinary.com/debbsefe/image/upload/f_auto,c_fill,dpr_auto,e_grayscale/image_fz7n7w.webp" alt="header-image" class="cld-responsive">
+                        <h1 class="form-title">Register Here</h1>
+                        <form id="registrationForm">
+                            <input type="text" placeholder="NAME" id="name" required>
+                            <span class="error-message" style="color: red;"></span><br>
+                            <div class="beside">
+                                <input type="number" placeholder="PHONE NUMBER" id="phone" required>
+                                <span class="error-message" style="color: red;"></span>
+                                <select id="gender" required>
+                                    <option value="">GENDER</option>
+                                    <option value="male">MALE</option>
+                                    <option value="female">FEMALE</option>
+                                    <option value="non-binary">NON-BINARY</option>
+                                </select>
+                                <span class="error-message" style="color: red;"></span>
+                            </div>
+                            <input type="email" placeholder="EMAIL ADDRESS" id="email" required>
+                            <span class="error-message" style="color: red;"></span><br>
+                            <input type="number" placeholder="CODE" id="code" required>
+                            <span class="error-message" style="color: red;"></span><br>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script3.js"></script>
+    <footer>
+        <div class="container2">
+            <p>&copy; 2024 PASCUAL.NET. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
